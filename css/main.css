@@ -1,3 +1,12 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: ;
+}
+
 .container {
     display: inline-block;
     width: 800px;
@@ -12,8 +21,13 @@
     background-color: chocolate;
 }
 
-.right-column:last-of-type {
+.right-column {
     width: 60%;
     float: left;
     background-color: darkgray;
+    padding: 60px;
+}
+
+.close {
+
 }
