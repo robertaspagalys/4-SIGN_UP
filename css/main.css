@@ -33,7 +33,10 @@ body {
 
 .close {}
 
-form {}
+form {
+    display: inline-block;
+    width: 100%;
+}
 
 form > .form-row {
     display: inline-block;
@@ -75,6 +78,8 @@ form > .form-row > button {
     border-radius: 15px;
     background-color: #114ED9;
     color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
 }
 
 form > .form-row > span {
